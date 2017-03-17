@@ -11,6 +11,7 @@
   <p>
     Movie release date: May 2, 1997
   </p>
+  <div style="color:#000">
   <h3>
     * Austin Powers
   </h3>
@@ -26,6 +27,7 @@
   <h3>
     * Fat Bastard
   </h3>
+  </div> 
   <img src= "http://4.bp.blogspot.com/-ZIZw1wwPI74/TpzS86juWcI/AAAAAAAALdE/JntW_bmGvrY/s1600/AustinPowers_083Pyxurz.jpg"/>
   <img src= "http://images2.fanpop.com/images/photos/8000000/Austin-Powers-Man-of-Mystery-austin-powers-8060479-852-480.jpg"/>
   <img src= "http://static.tvtropes.org/pmwiki/pub/images/austin-powers-cocktail-glass-4900072.jpg"/>
@@ -34,7 +36,7 @@
   <h1>
   </h1>
   <a href= "https://www.youtube.com/watch?v=VW8NB_QCd5c.com"><img src= "http://www.guessthe90sanswers.net/images/nineties/austin-powers.jpg"/></a>
-  
+ 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/VW8NB_QCd5c" frameborder="0" allowfullscreen></iframe>
     <style>
       body {
@@ -46,73 +48,7 @@
         height: 100vh;
       }   
 
-      .wrapper {
-        position: relative;
-        z-index: 1;
-        -webkit-perspective: 1000px;
-        perspective: 1000px;
-        display: block;
-        margin: 60px auto 40px auto;
-      }
-
-      .card {
-        width: 750px;
-        max-width: 100%;
-        margin: 0 auto;
-        border: 8px solid black;
-        box-sizing: border-box;
-        border-radius: 4px;
-        -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
-        -ms-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        -webkit-transition: all 1s linear 0s;
-        -moz-transition: all 1s linear 0s;
-        -o-transition: all 1s linear 0s;
-        -ms-transition: all 1s linear 0s;
-        transition: all 1s linear 0s;
-        -webkit-box-shadow: 0px 0px 10px #aaa;
-        box-shadow: 0px 0px 10px #aaa;
-      }
-
-      .wrapper:hover .card {
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        transform: rotateY(180deg);
-      }
-
-      .face {
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        backface-visibility: hidden;
-      }
-
-      /* Step 2. Change the Image */
-
-      .front {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: #ffd800;
-        background-image: url('https://farm8.staticflickr.com/7459/14125034804_225aa8ac52_b.jpg');
-        background-size: cover;
-        background-position: center;
-      }
-
-      .back {
-        background-color: white;
-        color: #333;
-        font-family: 'Waiting for the Sunrise', monospace;
-        font-size: 20px;
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        transform: rotateY(180deg);
-      }
+     
 
       h1 {
         font-family: 'Oswald', monospace;
@@ -131,64 +67,6 @@
         margin: 0 0 1em 0;
       }
 
-      .message {
-        text-align: left;
-        width: 50%;
-        padding: 30px 20px;
-        box-sizing: border-box;
-        min-height: 475px;
-        position: relative;
-      }
-
-      .message:after {
-        content: "";
-        position: absolute;
-        border-right: solid 2px black;
-        height: 70%;
-        top: 15%;
-        right: 0;
-      }
-
-      .address {
-        position: absolute;
-        top: 0;
-        right: 0;
-        text-align: left;
-        padding: 130px 20px 0 20px;
-        width: 50%;
-        box-sizing: border-box;
-      }
-
-      .address:after {
-        content: "";
-        position: absolute;
-        height: 65px;
-        width: 65px;
-        border: solid 2px black;
-        right: 20px;
-        top: 20px;
-      }
-
-      #myButton {
-        background-color: #ffd800;
-        border: 1px solid black;
-        font-family: 'Oswald', monospace;
-        font-size: 16px;
-        color: #000;
-        cursor: pointer;
-      }
-
-      #myAnswer {
-        background-color: transparent;
-        border: 0px solid white;
-        font-family: 'Oswald', monospace;
-        font-size: 16px;
-        color:#000;      
-      } 
-
-      #predictions{
-        font-size: 20px;
-      }
 
       #credits {
         font-family: monospace;
