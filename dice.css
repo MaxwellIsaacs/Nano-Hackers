@@ -1,0 +1,182 @@
+body{
+  font-family: monospace;
+  background-color: #FF3333;
+  font-size: 25px;
+}
+.dice{
+  position:relative;
+  width:100px;
+  height:100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius:10px;
+  border:left;
+  border:right;
+  border:top;
+  border:bottom;
+  display: inline-block;
+}
+.circle{
+  width:20px;
+  height:20px;
+  background-color: #000;
+  border-radius:50px;
+  border: solid pink;
+}
+#line{
+  display:inline-block;
+}
+#dice-1-dot-1{
+  position:absolute;
+  top:40%;
+  left:40%;
+  border: solid pink;
+
+}
+#dice-2-dot-1{
+  position:absolute;
+  top:20%;
+  left:20%;
+  border: solid pink;
+ 
+}
+
+#dice-2-dot-2{
+  position:absolute;
+  bottom:20%;
+  right:20%;
+  border: solid pink;
+ 
+}
+#dice-3-dot-1{
+  position:absolute;
+  bottom:20%;
+  right:20%;
+  border: solid pink;
+ 
+}
+#dice-3-dot-2{
+  position:absolute;
+  bottom:20%;
+  left:20%;
+  border: solid pink;
+ 
+}
+#dice-3-dot-3{
+  position:absolute;
+  bottom:15%;
+  right:15%;
+  border: solid pink;
+
+}
+#dice-3-dot-1{
+  position:absolute;
+  top:15%;
+  left:15%;
+}
+
+#dice-3-dot-2{
+  position:absolute;
+  top:38%;
+  left:35%
+}
+
+#dice-3-dot-3{
+  position:absolute;
+  bottom:15%;
+  right:15%;
+}
+#dice-4-dot-1{
+  position:absolute;
+  top:10%;
+  left:10%;
+  border: solid pink;
+}
+#dice-4-dot-2{
+  position:absolute;
+  top:10%;
+  right:10%;
+  border: solid pink;
+}
+#dice-4-dot-3{
+  position:absolute;
+  bottom: 10%;
+  left:10%;
+  border: solid pink;
+}
+#dice-4-dot-4{
+  position:absolute;
+  bottom:10%;
+  right: 10%;
+  border: solid pink;
+}
+#dice-5-dot-1{
+  position:absolute;
+  top:10%;
+  left:10%;
+  border: solid pink;
+}
+#dice-5-dot-2{
+  position:absolute;
+  top:10%;
+  right:10%;
+  border: solid pink;
+}
+#dice-5-dot-3{
+  position:absolute;
+  bottom: 10%;
+  left:10%;
+  border: solid pink;
+}
+#dice-5-dot-4{
+  position:absolute;
+  bottom:10%;
+  right: 10%;
+  border: solid pink;
+}
+#dice-5-dot-5{
+  position:absolute;
+  top:37%;
+  left: 35%;
+  border: solid pink;
+}
+#dice-6-dot-1{
+  position:absolute;
+  top:10%;
+  left:10%;
+  border: solid pink;
+}
+#dice-6-dot-2{
+  position:absolute;
+  top:10%;
+  right:10%;
+  border: solid pink;
+}
+#dice-6-dot-3{
+  position:absolute;
+  bottom: 10%;
+  left:10%;
+  border: solid pink;
+}
+#dice-6-dot-4{
+  position:absolute;
+  bottom:10%;
+  right: 10%;
+  border: solid pink;
+}
+#dice-6-dot-5{
+  position:absolute;
+  bottom: 37%;
+  left:10%;
+  border: solid pink;
+}
+#dice-6-dot-6{
+  position:absolute;
+  bottom:37%;
+  right: 10%;
+  border: solid pink;
+}
+
+
+
+

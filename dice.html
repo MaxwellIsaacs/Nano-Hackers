@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet"
+      type="text/css"
+      href="dice.css">
+      <div>
+        <!--Dice 1-->
+        <div class="dice1">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+          <div class="circle" id="dice-1-dot-1">
+          </div>
+        </div>
+
+        <!--Dice 2-->
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+          <div class="circle" id="dice-2-dot-1"></div>
+          <div class="circle" id="dice-2-dot-2"></div>
+        </div>
+        <!--Dice 3-->
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+      <div class="circle" id="dice-3-dot-1"></div>
+      <div class="circle" id="dice-3-dot-2"></div>
+      <div class="circle" id="dice-3-dot-3"></div>
+        
+        </div>
+        <!--Dice 4-->
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        </div>
+      <div class="circle" id="dice-4-dot-1"></div>
+      <div class="circle" id="dice-4-dot-2"></div>
+      <div class="circle" id="dice-4-dot-3"></div>
+      <div class="circle" id="dice-4-dot-4"></div>
+        <!--Dice 5-->
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+      <div class="circle" id="dice-5-dot-1"></div>
+      <div class="circle" id="dice-5-dot-2"></div>
+      <div class="circle" id="dice-5-dot-3"></div>
+      <div class="circle" id="dice-5-dot-4"></div>
+      <div class="circle" id="dice-5-dot-5"></div>
+        </div>
+        <!--Dice 6-->
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+        <div class="dice">
+      <div class="circle" id="dice-6-dot-1"></div>
+      <div class="circle" id="dice-6-dot-2"></div>
+      <div class="circle" id="dice-6-dot-3"></div>
+      <div class="circle" id="dice-6-dot-4"></div>
+      <div class="circle" id="dice-6-dot-5"></div>
+      <div class="circle" id="dice-6-dot-6"></div>
+        </div>
+      </div>
+    </head>
+    <body>
+    <p>Roll The Dice</p>
+
+<button onclick="myFunction()">Click Me!</button>
+
+<p id="roll"></p>
+
+<script>
+function myFunction() {
+    var x = Math.floor((Math.random() * 6) + 1);
+    document.getElementById("roll").innerHTML = x;
+}
+</script>
+    </body>
+  </html>
