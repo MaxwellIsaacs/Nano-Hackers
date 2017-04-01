@@ -11,6 +11,7 @@
     position:absolute;
     width:100px;
     height:100px;
+    border-style: double;
     border: 5px solid black;
     display: inline-block;
 
