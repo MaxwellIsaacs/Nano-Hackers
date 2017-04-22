@@ -1,0 +1,35 @@
+ body{
+        padding: 0 20px;
+        color: green;
+        background-color: #EE82EE;
+        text-align: center;
+        margin: 0px;
+        height: 100px;
+      }   
+
+
+      h1{
+        font-family: 'Oswald', monospace;
+        color: black;
+        text-transform: uppercase;
+        text-shadow: 4px 4px 3px #ffd800;
+        font-size: 48px; 
+        font-weight: bold;
+        letter-spacing: -1px;
+        max-width: 90%;
+        display: inline-block;
+        padding: 4px 25px;
+        text-shadow: 2px 2px #ff0000;
+      }
+
+      p {
+        margin: 0 0 1em 0;
+      }
+      .title{
+        text-shadow: 2px 2px #ff0000;
+      }
+      .btn{
+        background-color: aqua;
+        color: black;
+        
+      } 
